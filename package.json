@@ -1,0 +1,18 @@
+{
+	"name": "lifecorp-userconfig",
+	"date": "09-06-2016",
+	"description": "User config helper for Lifecorp nodejs projects.",
+	"main": "lifecorp-userconfig.js",
+	"author": {
+		"name": "Scott Johnson"
+	},
+	"license": "MIT",
+	"version": "0.0.1",
+	"engine": "node 4.0.0",
+	"repository":{},
+	"dependencies": {
+		"q": "latest",
+		"lifecorp-extend": ">=0.0.1",
+		"fs-extra": "latest"
+	}
+}
