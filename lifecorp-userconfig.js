@@ -97,12 +97,12 @@ var LifecorpUser = module.exports = function(){
 					oProp = aProperties[i];
 
 					if ( !oConfig.hasOwnProperty( oProp.name ) ) {
-						aErrors.push( ''.concat( 'Config has no "',oProp.name,'" property.' ) );
+						aErrors.push( ''.concat( USER_CONFIG_PATH, ' has no "',oProp.name,'" property.' ) );
 						continue;
 					}
 
 					if ( typeof oConfig[ oProp.name ] != oProp.type ) {
-						aErrors.push( ''.concat( 'Config property "',oProp.name,'" must be a ',oProp.type,'.' ) );
+						aErrors.push( ''.concat( USER_CONFIG_PATH, ' property "',oProp.name,'" must be a ',oProp.type,'.' ) );
 						continue;
 					}
 				}// /for()
