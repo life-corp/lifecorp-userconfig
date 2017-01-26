@@ -1,9 +1,14 @@
 # lifecorp-userconfig
 The best app ever..
 
+## Installation
+```shell
+npm install git+https://github.com/life-corp/lifecorp-userconfig.git
+```
+
 ### Useage:
 
-```
+```js
 var lifecorpUserConfig = require( 'lifecorp-userconfig' )();
 
 lifecorpUserConfig.getConfig()
