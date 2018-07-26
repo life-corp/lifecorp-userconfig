@@ -12,7 +12,6 @@
 	"repository":{},
 	"dependencies": {
 		"q": "latest",
-		"lifecorp-extend": "git+https://github.com/life-corp/lifecorp-extend.git",
 		"fs-extra": "latest"
 	}
 }
